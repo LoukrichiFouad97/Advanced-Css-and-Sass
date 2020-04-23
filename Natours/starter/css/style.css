@@ -1,0 +1,174 @@
+/* 
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+/* Start Global Reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.7;
+	padding: 30px;
+}
+/* End Global Reset */
+
+/* Start Header */
+
+/* .header {
+	height: 95vh;
+	background-image: linear-gradient(
+			to right bottom,
+			rgba(125, 213, 111, 0.8),
+			rgba(40, 180, 131, 0.8)
+		),
+		url("../img/hero.jpg");
+	background-size: top;
+	background-position: center;
+	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+	position: relative;
+}
+.header .logo-box {
+	position: absolute;
+	left: 40px;
+	top: 40px;
+}
+
+.header .logo-box .logo {
+	height: 35px;
+}
+.header .text-box {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.header .heading-primary {
+	backface-visibility: hidden;
+	margin-bottom: 60px;
+}
+.header .heading-primary span {
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+}
+.header .heading-primary-main {
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 35px;
+	animation-name: slideToRight;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+}
+@keyframes slideToRight {
+	0% {
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+	80% {
+		transform: translateX(5%);
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+.header .heading-primary-sub {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 17.4px;
+	animation-name: slideToleft;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+}
+@keyframes slideToleft {
+	0% {
+		transform: translateX(100%);
+		opacity: 0;
+	}
+	80% {
+		transform: translateX(-5%);
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.btn:link,
+.btn:visited {
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	transition: all 0.2s ease-in-out;
+	border-radius: 100px;
+	position: relative;
+}
+@keyframes slideTop {
+	0% {
+		opacity: 0;
+		transform: translateY(100%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.btn:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn::after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	border-radius: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	transition: all 0.4s ease-in-out;
+}
+
+.btn:hover::after {
+	transform: scaleX(1.4) scaleY(1.6);
+	opacity: 0;
+}
+
+.btn-white {
+	padding: 15px 40px;
+	background-color: #fff;
+	color: #333;
+}
+.btn-white::after {
+	background-color: #fff;
+}
+
+.btn-animated {
+	animation-name: slideTop;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0.75s;
+	animation-fill-mode: backwards;
+}
+*/
+/* End Header */
